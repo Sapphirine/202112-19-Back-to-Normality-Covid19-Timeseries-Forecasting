@@ -20,15 +20,21 @@ This folder contains the transformed data from CDC covid-19 cases publication. I
 
 This folder contains the prototype for our D3 visualization.
 
+## DAG
+
+In the DAG folder, there are the dag management system and the scripts that the dag system will run. After the scheduler starts, the system will collect data and store the transformed data into the script folder. It will then use the transformed data to train the VAR model and the RNN model.
+
 ## Data
 
 Data folder contains the data we collected from NYCHealth. The scripts in DAG use the same data source.
+
+## EDA_1st_2nd_report
+
+This folder contains the jupyter notebooks of the analysis for the first and second reports.
 
 ## Processed_Data
 
 Saved for the processed data from NYCHealth data.
 
 
-## DAG
 
-In the DAG folder, there are the dag management system and the scripts that the dag system will run. After the scheduler starts, the system will collect data and store the transformed data into the script folder. It will then use the transformed data to train the VAR model and the RNN model.
