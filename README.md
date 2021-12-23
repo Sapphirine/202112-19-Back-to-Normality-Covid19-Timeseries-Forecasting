@@ -20,6 +20,8 @@ This folder contains the transformed data from CDC covid-19 cases publication. I
 
 This folder contains the prototype for our D3 visualization.
 
+![Alt text](./d3.png?raw=true "D3 Visualization")
+
 ## DAG
 
 In the DAG folder, there are the dag management system and the scripts that the dag system will run. After the scheduler starts, the system will collect data and store the transformed data into the script folder. It will then use the transformed data to train the VAR model and the RNN model.
